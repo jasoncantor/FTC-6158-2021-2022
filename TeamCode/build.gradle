@@ -21,7 +21,12 @@ android {
     }
     buildToolsVersion '31.0.0'
 }
-
+repositories {
+    // This line will already be here; you do not need to add it
+    maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
+    // Add this line
+    maven { url = "https://maven.0x778.tk" }
+}
 dependencies {
     implementation project(':FtcRobotController')
     annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
@@ -31,4 +36,7 @@ dependencies {
     implementation 'com.acmerobotics.roadrunner:core:0.5.4'
 
     implementation 'org.openftc:easyopencv:1.5.0'
+
+    implementation 'com.spartronics4915.lib:ftc265:2.1.9'
+
 }
