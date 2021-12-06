@@ -22,7 +22,7 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-    -name: Sync Gradle
+    - name: Sync with Gradle
       run: ./gradlew tasks
     - name: Build with Gradle
       run: ./gradlew :TeamCode:assembleDebug
