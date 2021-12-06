@@ -6,6 +6,7 @@ repositories {
     maven { url 'https://maven.brott.dev/' }
     maven { url 'https://jitpack.io' }
     maven { url 'https://maven.0x778.tk' }
+    maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
     flatDir {
         dirs rootProject.file('libs')
     }
