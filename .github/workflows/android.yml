@@ -26,3 +26,5 @@ jobs:
       run: ./gradlew tasks
     - name: Build with Gradle
       run: ./gradlew :TeamCode:assembleDebug
+    - name: Build with Gradle
+      run: ./gradlew :TeamCode:assembleDebug
