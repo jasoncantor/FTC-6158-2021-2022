@@ -25,4 +25,4 @@ jobs:
     - name: Sync with Gradle
       run: ./gradlew init
     - name: Build with Gradle
-      run: ./gradlew :TeamCode:assembleDebug --configure-on-demandinit
+      run: ./gradlew :TeamCode:assembleDebug
